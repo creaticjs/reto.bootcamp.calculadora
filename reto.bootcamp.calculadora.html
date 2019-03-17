@@ -41,44 +41,6 @@
 <center>
 <h1 style = "color: green;">reto bootcamp</h1>
 <form name="formularioCalculadora"><br>
-<input type="text" name="numero01">
-<br>
-<input type="text" name="numero02" value="0">
-
-<br>
-<input type="button" onclick="escribirNumero(this.value)" value="7">
-<input type="button" onclick="escribirNumero(this.value)" value="8">
-<input type="button" onclick="escribirNumero(this.value)" value="9">
-
-<br>
-<input type="button" onclick="escribirNumero(this.value)" value="4">
-<input type="button" onclick="escribirNumero(this.value)" value="5">
-<input type="button" onclick="escribirNumero(this.value)" value="6">
-
-<br>
-<input type="button" onclick="escribirNumero(this.value)" value="1">
-<input type="button" onclick="escribirNumero(this.value)" value="2">
-<input type="button" onclick="escribirNumero(this.value)" value="3">
-
-<br>
-<input type="button" onclick="escribirNumero(this.value)" value="0">
-<input type="button" onClick="escribirNumero('.')" value=".">
-<input type="button" class="clear" onClick="borrarNumero()" value="◄">
-<input type="button" class="clear" onClick="document.formularioCalculadora.numero02.value='0'" value="borrar">
-
-<br>
-<input type="button" class="arit" onClick="sumar()" value="+">
-<input type="button" class="arit" onClick="restar()" value="-">
-<input type="button" class="arit" onClick="multiplicar()" value="×">
-<input type="button" class="arit" onClick="dividir()" value="÷">
-<input type="button" class="igual" onClick="calcular()" value="=">
-<br>
-
-</form>
-</center>
-<div align = "right" style = "color: green;">
-	<h2>------by [nkt]------     </h2>
-</div>
 <script type="text/javascript">
 	var borrar = false;
 	var blocdel = false;
@@ -142,5 +104,44 @@
 
 	
 </script>
+<input type="text" name="numero01">
+<br>
+<input type="text" name="numero02" value="0">
+
+<br>
+<input type="button" onclick="escribirNumero(this.value)" value="7">
+<input type="button" onclick="escribirNumero(this.value)" value="8">
+<input type="button" onclick="escribirNumero(this.value)" value="9">
+
+<br>
+<input type="button" onclick="escribirNumero(this.value)" value="4">
+<input type="button" onclick="escribirNumero(this.value)" value="5">
+<input type="button" onclick="escribirNumero(this.value)" value="6">
+
+<br>
+<input type="button" onclick="escribirNumero(this.value)" value="1">
+<input type="button" onclick="escribirNumero(this.value)" value="2">
+<input type="button" onclick="escribirNumero(this.value)" value="3">
+
+<br>
+<input type="button" onclick="escribirNumero(this.value)" value="0">
+<input type="button" onClick="escribirNumero('.')" value=".">
+<input type="button" class="clear" onClick="borrarNumero()" value="◄">
+<input type="button" class="clear" onClick="document.formularioCalculadora.numero02.value='0'" value="borrar">
+
+<br>
+<input type="button" class="arit" onClick="sumar()" value="+">
+<input type="button" class="arit" onClick="restar()" value="-">
+<input type="button" class="arit" onClick="multiplicar()" value="×">
+<input type="button" class="arit" onClick="dividir()" value="÷">
+<input type="button" class="igual" onClick="calcular()" value="=">
+<br>
+
+</form>
+</center>
+<div align = "right" style = "color: green;">
+	<h2>------by [nkt]------     </h2>
+</div>
+
 </body>
 </html>
